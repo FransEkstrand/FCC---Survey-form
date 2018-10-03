@@ -1,115 +1,33 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
-
-html,
-body {
-  background-color: #9900ff;
-  text-align: center;
-  font-family: 'Raleway', Helvetica, sans-serif;
-  min-width: 320px;
-}
-
-header {
-  font-size: 2em;
-  font-weight: bold;
-  margin: 20px;
-}
-
-#inner-background {
-  background-color: rgba(255, 255, 255, 0.781);
-  margin: 0 auto;
-  border-radius: 4px;
-  width: 75%;
-  max-width: 900px;
-  padding: 10px;
-  padding-top: 20px;
-}
-
-.labels {
-  display: inline-block;
-  text-align: right;
-  width: 40%;
-  padding: 5px;
-  vertical-align: top;
-  margin-top: 10px;
-}
-
-.rightTab {
-  display: inline-block;
-  text-align: left;
-  width: 48%;
-  vertical-align: middle;
-}
-
-.input-field {
-  height: 20px;
-  width: 280px;
-  padding: 5px;
-  margin: 10px;
-  border: 1px solid #c0c0c0;
-  border-radius: 2px;
-}
-
-#userAge {
-  width: 40px;
-}
-
-.userRatings,
-input[type="checkbox"] {
-  float: left;
-  margin-right: 5px;
-}
-
-#submit {
-  background-color: #59ace0;
-  border-radius: 4px;
-  color: white;
-  font-size: 1em;
-  height: 40px;
-  width: 96px;
-  margin: 10px;
-  border: 0px solid;
-}
-
-.dropdown {
-  height: 35px;
-  width: 140px;
-  padding: 5px;
-  margin: 10px;  
-  margin-top: 15px;
-  border: 1px solid #c0c0c0;
-  border-radius: 2px;
-}
-
-.radio, .checkbox {
-  position: relative;
-  left: -43px;
-  margin-left: 10px;
-  display: block;
-  padding-bottom: 10px;
-}
-
-@media screen and (max-width: 833px) {
-  .input-field {
-    width: 80%;
+#title {
+  font-family: arial;
+  font-size: 30px;
+  color: #FFF;
+  background-color: #213656;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 50px;
   }
-  select {
-    width: 90%;
+  
+  #background {
+  background-color: #14bbbc	
   }
-}
-
-@media screen and (max-width: 520px) {
-  .labels {
-    width: 100%;
-    text-align: left;
+  
+  #second-background {
+  background-color: #bbbc14;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
   }
-  .rightTab {
-    width: 80%;
-    float: left;
+  
+  #second-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: monospace;
   }
-  .input-field {
-    width: 100%;
+  
+  #survey {
+  display: flex;
+  flex-direction: row;
   }
-  select {
-    width: 100%;
-  }
-}

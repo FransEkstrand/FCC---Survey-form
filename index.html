@@ -1,121 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Undersökning om Optima</title>
-    <link rel="stylesheet" href="style3.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="style.css">
+<title>Undersökning om optima</title>
 </head>
-
-
-
+<body id="background">
 
 <h1 id="title">Undersökning om Optima</h1>
-<div id="inner-background">
-  <p id="description">Fyll i nedan</p>
-  
-  </p>
-  <form id="survey-form" method="GET" action="https://crossorigin.me/https://freecodecamp.com"></form>
-    <div class="rowTab">
-      <div class="labels">
-        <label id="name-label" for="name">Namn: </label>
-      </div>
-      <div class="rightTab">
-        <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Fyll i ditt Namn" required>
-      </div>
-    </div>
-    <div class="rowTab">
-      <div class="labels">
-        <label id="email-label" for="email">Email: </label>
-      </div>
-      <div class="rightTab">
-        <input type="email" name="email" id="email" class="input-field" required placeholder="Fyll i din Email" required>
-      </div>
-    </div>
-    <div class="rowTab">
-      <div class="labels">
-        <label id="number-label" for="age">Ålder: </label>
-      </div>
-      <div class="rightTab">
-        <input type="number" name="age" id="number" min="1" max="99" class="input-field" placeholder="Ålder" required>
-      </div>
-      <div class="rowTab">
-        <div class="labels">
-          <label for="currentPos">Välj ditt kön</label>
-        </div>
-        <div class="rightTab">
-          <select id="dropdown" name="currentPos" class="dropdown">
-        <option value>Välj ett alternativ</option>
-        <option value="student">Kvinna</option>
-        <option value="job">Man</option>
-        <option value="other">Övrigt</option>
-      </select>
-        </div>
-    </div>
-    <div class="rowTab">
-      <div class="labels">
-        <label for="currentPos">Vilket alternativ beskriver dig bäst?</label>
-      </div>
-      <div class="rightTab">
-        <select id="dropdown" name="currentPos" class="dropdown">
-      <option value>Välj ett alternativ</option>
-      <option value="student">Studerande</option>
-      <option value="job">Heltidsjobb</option>
-      <option value="learner">Heltidspraktikant</option>
-      <option value="preferNo">Jag vill inte ange det</option>
-      <option value="other">Annat</option>
-    </select>
-      </div>
-    </div>
-    <div class="rowTab">
-      <div class="labels">
-        <label for="userRating">Skulle du rekommendera Optima?</label>
-      </div>
-      <div class="rightTab">
-        <ul style="list-style: none;">
-          <li class="radio"><label>Ja<input name="radio-buttons" value="1"  type="radio" class="userRatings" ></label></li>
-          <li class="radio"><label>Kanske<input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label></li>
-          <li class="radio"><label>Nej<input name="radio-buttons" value="3"  type="radio" class="userRatings" ></label></li>
-        </ul>
-      </div>
-    </div>
-    <div class="rowTab">
-      <div class="labels">
-        <label for="most-like">Vad är bäst med Optima?</label>
-      </div>
-      <div class="rightTab">
-        <select id="most-like" name="mostLike" class="dropdown">
-      <option disabled selected value>Välj ett alternativ</option>
-      <option value="challenges">Lektionerna</option>
-      <option value="projects">Lärarna</option>
-      <option value="community">Miljön</option>
-      <option value="openSource">Maten</option>
-    </select>
-      </div>
-    </div>
-    <div class="rowTab">
-      <div class="labels">
-        <label for="preferences">Saker som du vill skulle ändras i framtiden.<br>(Markera de som du håller med om): </label>
-      </div>
-      <div class="rightTab">
-        <ul id="preferences" style="list-style: none;">
-          <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Front-end Projects</label></li>
-          <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">Mat</li>
-          <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Data Visualization</label></li>
-          <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">Mega gay</label></li>
-          <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="userRatings">Open Source Community</label></li>
-        </ul>
-      </div>
-    </div>
-    <div class="rowTab">
-      <div class="labels">
-        <label for="comments">Any Comments or Suggestions?</label>
-      </div>
-      <div class="rightTab">
-        <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
-      </div>
-    </div>
-    <button id="submit" type="submit">Submit</button>
-  </form>
+
+<div id="second-background">
+<h2 id="second-title">Fyll i nedan</h2>
+<br><br><br>
+<div id="survey">
+<input type="text" required placeholder="Fyll i ditt Namn" required>
+
+<input type="text" required placeholder="Fyll i din Email" required>
+
+<button type="submit">Lämna in</button>
+
+
 </div>
+</div>
+
+
+
+
+</body>
+</html>
