@@ -30,13 +30,15 @@
    max-width: 50%;
    margin-left: auto;
    margin-right: auto;
+   font-size: 15px;
+
   }
   
   #second-title {
    display: flex;
    justify-content: center;
    font-family: monospace;
-   padding: 20px;
+  font-size: 25px;
   }
 
   #button {
@@ -60,16 +62,28 @@
   input {
     margin-top: 5px;
     background-color: #14bbbc;
+    font-size: 18px;
   }
 
  div input:hover {
    border-color: black;
  }
 
- .dropdown {
-  height: 27.5px;
-  width: 150px;
-  padding: 5px;
+ select {
   margin-top: 15px;
-  border-radius: 2px;
-  }
+  font-family: monospace;
+  background-color: #14bbbc;
+  border-left: gray solid 2px;
+  border-top: gray solid 2px;
+  border-right: white solid 2px;
+  border-bottom: white solid 2px;
+  height: 29.2px;
+  width: 701.6px;
+  max-width: 100%;
+}
+
+div select:hover {
+  border-color: black;
+}
+
+
