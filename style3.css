@@ -28,6 +28,9 @@
   }
   
   #survey {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 300px;
+    margin-left: 50%;
   }
