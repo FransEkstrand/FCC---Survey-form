@@ -12,18 +12,18 @@
 <h1 id="title">Undersökning om Optima</h1>
 
 <div id="second-background">
-<h2 id="second-title">Fyll i nedan</h2>
+<p id="description">Fyll i nedan</p>
 <br>
-<div id="survey">
+<form id="survey-form">
 
 * Namn:
 
-<input type="text" required placeholder="Fyll i ditt Namn" required>
+<input id="name" type="text" required placeholder="Fyll i ditt Namn" required>
 
 * Email:
-
-<input type="text" required placeholder="Fyll i din Email" required>
-
+<form
+action="/action_page.php">
+<input type="email" id="myEmail" name="usremail" required>
 * Ålder:
 
 <input type="text" required placeholder="Ålder" required>
@@ -45,11 +45,14 @@ Välj det alternativ som passar dig bäst:
 
 <button id="button" type="submit"><strong>Lämna in</strong></button>
 
+</form>
 </div>
-</div>
 
 
 
 
+  
+</body>
+</html>
 </body>
 </html>
