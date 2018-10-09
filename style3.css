@@ -65,3 +65,11 @@
  div input:hover {
    border-color: black;
  }
+
+ .dropdown {
+  height: 27.5px;
+  width: 150px;
+  padding: 5px;
+  margin-top: 15px;
+  border-radius: 2px;
+  }
