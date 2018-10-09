@@ -1,5 +1,5 @@
 #title {
-  font-family: arial;
+  font-family: 'Lobster', monospace;
   font-size: 30px;
   color: #FFF;
   background-color: #213656;
@@ -77,8 +77,8 @@ select {
  border-top: gray solid 2px;
  border-right: white solid 2px;
  border-bottom: white solid 2px;
- height: 29.2px;
- width: 701.6px;
+ height: 27px;
+ width: 894.5px;
  max-width: 100%;
 }
 
@@ -86,3 +86,35 @@ div select:hover {
  border-color: black;
 }
 
+#checkboxes {
+display:flex;
+flex-direction: column-reverse;
+font-size: 15px;
+}
+
+#checkboxes1 {
+ position: relative;
+ left: 50%;
+ bottom: 117px;
+ float: left;
+ display:flex;
+ flex-direction: column-reverse;
+ font-size: 15px;
+  }
+  
+
+  #commentbox {
+    font-family: monospace;
+    background-color: #14bbbc;
+    border-top: solid gray 2px;
+    border-right: white solid 2px;
+    border-bottom: solid white 2px;
+    border-left: solid gray 2px;
+  }
+
+  #description2 {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+   font-size: 15px;
+   }
