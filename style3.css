@@ -1,29 +1,29 @@
 #title {
-  font-family: 'Lobster', monospace;
+  font-family: "Lobster", monospace;
   font-size: 30px;
-  color: #7C72A0;
-  background-color: #42033D;
+  color: #7c72a0;
+  background-color: #42033d;
   display: flex;
   justify-content: center;
   border-radius: 10px;
   margin-top: 50px;
   margin-left: 50px;
   margin-right: 50px;
- }
- 
- #background {
-  background-color: #7C238C;	
- }
- 
- #second-background {
-  background-color: #680E4B;
+}
+
+#background {
+  background-color: #7c238c;
+}
+
+#second-background {
+  background-color: #680e4b;
   margin-bottom: 75px;
   margin-left: 50px;
   margin-right: 50px;
   border-radius: 10px;
- }
- 
- #survey-form {
+}
+
+#survey-form {
   display: flex;
   justify-content: center;
   font-family: monospace;
@@ -32,19 +32,18 @@
   margin-left: auto;
   margin-right: auto;
   font-size: 15px;
-  color: #7C72A0;
+  color: #7c72a0;
+}
 
- }
- 
- #description {
+#description {
   display: flex;
   justify-content: center;
   font-family: monospace;
- font-size: 25px;
- color: #7C72A0;
- }
+  font-size: 25px;
+  color: #7c72a0;
+}
 
- #button {
+#submit {
   background-color: #854798;
   max-width: 100%;
   margin-left: auto;
@@ -55,38 +54,38 @@
   font-family: monospace;
   font-size: 16px;
   margin-bottom: 20px;
- }
+}
 
- ::placeholder {
-   font-family: monospace;
-   color: black;
- }
+::placeholder {
+  font-family: monospace;
+  color: black;
+}
 
- input {
-   margin-top: 5px;
-   background-color: #854798;
-   font-size: 18px;
- }
+input {
+  margin-top: 5px;
+  background-color: #854798;
+  font-size: 18px;
+}
 
 div input:hover {
-  border-color: #42033D;
+  border-color: #42033d;
 }
 
 select {
- margin-top: 15px;
- font-family: monospace;
- background-color: #854798;
- border-left: gray solid 2px;
- border-top: gray solid 2px;
- border-right: white solid 2px;
- border-bottom: white solid 2px;
- height: 27px;
- width: 894.5px;
- max-width: 100%;
+  margin-top: 15px;
+  font-family: monospace;
+  background-color: #854798;
+  border-left: gray solid 2px;
+  border-top: gray solid 2px;
+  border-right: white solid 2px;
+  border-bottom: white solid 2px;
+  height: 27px;
+  width: 894.5px;
+  max-width: 100%;
 }
 
 div select:hover {
- border-color: #42033D;
+  border-color: #42033d;
 }
 
 #checkboxes {
@@ -96,38 +95,37 @@ div select:hover {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-  
+
 #checkboxes1 {
   margin-left: auto;
   margin-right: auto;
   font-size: 15px;
   margin-top: 10px;
   margin-bottom: 20px;
-  }
+}
 
-  #checkboxes2 {
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 15px;
-    margin-top: 10px;
-    margin-bottom: 40px;
-  }
+#checkboxes2 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
 
+#commentbox {
+  font-family: monospace;
+  background-color: #854798;
+  border-top: solid gray 2px;
+  border-right: white solid 2px;
+  border-bottom: solid white 2px;
+  border-left: solid gray 2px;
+  height: 150px;
+  font-size: 20px;
+}
 
-  #commentbox {
-    font-family: monospace;
-    background-color: #854798;
-    border-top: solid gray 2px;
-    border-right: white solid 2px;
-    border-bottom: solid white 2px;
-    border-left: solid gray 2px;
-    height: 150px;
-    font-size: 20px;
-  }
-
-  #description2 {
-    display: flex;
-    justify-content: center;
-    font-family: monospace;
-   font-size: 15px;
-   }
+#description2 {
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 15px;
+}

@@ -18,17 +18,29 @@
 <br>
 <form id="survey-form">
 
+  <label id="name-label">
 * Namn:
-
+  </label>
+    
 <input id="name" type="text" required placeholder="Fyll i ditt Namn" required>
 
+  <label id="email-label">
 * Email:
-<form
-action="/action_page.php">
+  </label>
+  
+ <div id="email">
+                     
 <input type="email" placeholder="Fyll i din Email" required>
+  </div>
+   
+   <label id="number-label">
+                           
 * Ålder:
-
-<input type="text" required placeholder="Ålder" required>
+          </label>
+   
+<input id="number" type="number" required 
+       min="1" max="99"
+       placeholder="Ålder" required>
 
 <br>
 
@@ -49,27 +61,27 @@ action="/action_page.php">
 <p id="description2">Vad skulle du vilja ändra/förbättra?<p>
 
 <div id="checkboxes">
-<input type="checkbox"> Maten
-<input type="checkbox"> Rasterna
+<input value="5" type="checkbox"> Maten
+<input value="6" type="checkbox"> Rasterna
 </div>
 
 
 <div id="checkboxes1">
-<input type="checkbox"> Klassrummen
-<input type="checkbox"> Aulan/Caféet
+<input value="1" type="checkbox"> Klassrummen
+<input value="2" type="checkbox"> Aulan/Caféet
 
 </div>
 <div id="checkboxes2">
-<input type="checkbox"> Matsalen
-<input type="checkbox"> Lektionerna
+<input value="3" type="checkbox"> Matsalen
+<input value="4" type="checkbox"> Lektionerna
 </div>
-
+                                <p id="description2">Egna Kommentarer</p>
 <textarea id="commentbox">
-Egna kommentarer:</textarea>
+</textarea>
 
 <br><br><br>
 
-<button id="button" type="submit"><strong>Lämna in</strong></button>
+<button id="submit" type="submit"><strong>Lämna in</strong></button>
 
 </form>
 </div>
