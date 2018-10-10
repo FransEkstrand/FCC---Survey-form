@@ -1,8 +1,8 @@
 #title {
   font-family: 'Lobster', monospace;
   font-size: 30px;
-  color: #FFF;
-  background-color: #213656;
+  color: #7C72A0;
+  background-color: #42033D;
   display: flex;
   justify-content: center;
   border-radius: 10px;
@@ -12,11 +12,12 @@
  }
  
  #background {
-  background-color: #14bbbc	
+  background-color: #7C238C;	
  }
  
  #second-background {
-  background-color: #bbbc14;
+  background-color: #680E4B;
+  margin-bottom: 75px;
   margin-left: 50px;
   margin-right: 50px;
   border-radius: 10px;
@@ -31,6 +32,7 @@
   margin-left: auto;
   margin-right: auto;
   font-size: 15px;
+  color: #7C72A0;
 
  }
  
@@ -39,10 +41,11 @@
   justify-content: center;
   font-family: monospace;
  font-size: 25px;
+ color: #7C72A0;
  }
 
  #button {
-  background-color: #14bbbc;
+  background-color: #854798;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -61,18 +64,18 @@
 
  input {
    margin-top: 5px;
-   background-color: #14bbbc;
+   background-color: #854798;
    font-size: 18px;
  }
 
 div input:hover {
-  border-color: black;
+  border-color: #42033D;
 }
 
 select {
  margin-top: 15px;
  font-family: monospace;
- background-color: #14bbbc;
+ background-color: #854798;
  border-left: gray solid 2px;
  border-top: gray solid 2px;
  border-right: white solid 2px;
@@ -83,33 +86,43 @@ select {
 }
 
 div select:hover {
- border-color: black;
+ border-color: #42033D;
 }
 
 #checkboxes {
-display:flex;
-flex-direction: column-reverse;
-font-size: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
-
-#checkboxes1 {
- position: relative;
- left: 50%;
- bottom: 117px;
- float: left;
- display:flex;
- flex-direction: column-reverse;
- font-size: 15px;
-  }
   
+#checkboxes1 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  }
+
+  #checkboxes2 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
 
   #commentbox {
     font-family: monospace;
-    background-color: #14bbbc;
+    background-color: #854798;
     border-top: solid gray 2px;
     border-right: white solid 2px;
     border-bottom: solid white 2px;
     border-left: solid gray 2px;
+    height: 150px;
+    font-size: 20px;
   }
 
   #description2 {
