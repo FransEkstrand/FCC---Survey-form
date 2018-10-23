@@ -28,9 +28,9 @@
 * Email:
   </label>
   
- <div id="email">
+ <div>
                      
-<input type="email" placeholder="Fyll i din Email" required>
+<input type="email" id="email" placeholder="Fyll i din Email" required>
   </div>
    
    <label id="number-label">
@@ -47,7 +47,7 @@
 <p id="description2">Välj det alternativ som passar dig bäst:</p>
 
 <div>
-        <select id="dropdown">
+        <select id="dropdown" name="currentPos">
         <option disabled value>Välj ett alternativ</option>
         <option>Studerande</option>
         <option>Heltidsjobb</option>
@@ -57,9 +57,20 @@
         </select>
         </div>
 <br><br>
+  
+   <div class="rightTab">
+        <ul style="list-style: none;">
+          <li class="radio"><label>Ja<input name="radio-buttons" value="1"  type="radio" class="userRatings" ></label></li>
+          <li class="radio"><label>Kanske<input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label></li>
+          <li class="radio"><label>Nej<input name="radio-buttons" value="3"  type="radio" class="userRatings" ></label></li>
+        </ul>
 
+     <br><br>
+  
 <p id="description2">Vad skulle du vilja ändra/förbättra?<p>
 
+     <br>
+     
 <div id="checkboxes">
 <input value="5" type="checkbox"> Maten
 <input value="6" type="checkbox"> Rasterna
@@ -75,9 +86,11 @@
 <input value="3" type="checkbox"> Matsalen
 <input value="4" type="checkbox"> Lektionerna
 </div>
-                                <p id="description2">Egna Kommentarer</p>
-<textarea id="commentbox">
-</textarea>
+<p id="description2">Egna Kommentarer</p>
+
+
+<input type="text" id="commentbox">
+
 
 <br><br><br>
 
@@ -85,8 +98,6 @@
 
 </form>
 </div>
-
-
 
 
   

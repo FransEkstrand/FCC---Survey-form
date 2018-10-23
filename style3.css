@@ -46,8 +46,8 @@
 #submit {
   background-color: #854798;
   max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+ display: flex;
+ justify-content: center;
   border-radius: 12px;
   padding: 10px 18px;
   border-color: #213656;
@@ -128,4 +128,8 @@ div select:hover {
   justify-content: center;
   font-family: monospace;
   font-size: 15px;
+}
+
+#email {
+  
 }
